@@ -4,7 +4,7 @@ var noAnswer = 0;
 var count = 0;
 var timer;
 var guess = [];
-var answer = [0, 2, 1, 3, 3, 1];
+var answer = [0, 2, 1, 3, 3, 1, 0,];
 
 
 var fifaWorldQuestion = [{
@@ -37,9 +37,18 @@ var fifaWorldQuestion = [{
     choices: ["every year", "every four years", "every other year", "every 5 years"],
     correctAnswer: 1
 },
-    /*{
-        question:
-    }*/
+{
+    question: "Who was voted best FIFA player in history so far ?",
+    choices: ["Pele", "Ronaldo", "Messi", "Neymar"],
+    correctAnswer: 0
+}
+{
+    question: "Who is the official food sponsor of FIFA ?",
+    choices: ["Wendy's", "McDonald's", "Burger King", "Taco Bell"],
+    correctAnswer: 1
+}
+   
+
 ]
 
 var start = function () {
@@ -109,13 +118,9 @@ $('#start').on('click', function () {
             console.log(wrong);
             console.log(count);
         }
-
+    
+    
     })
-
-
-
-
-
 
 
 
