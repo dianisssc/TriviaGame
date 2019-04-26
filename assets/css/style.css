@@ -1,5 +1,5 @@
 #container {
-    width: 100%;
+    width: auto;
     height: auto;
     
 }
@@ -12,18 +12,19 @@
     text-align: center;;
 }
 
-body {
+body { 
     background-image: url(../images/fifawithball.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-}
+  }
 
 #start {
     margin-top: 480px;
 }
 
 button {
-    border: 1px solid white;
+    border: 7px solid rgb(34, 97, 60);
     border-radius: 5px;
     font-size: 20px;
     font-family: 'Spectral', sans-serif;
@@ -37,7 +38,7 @@ p {
 }
 
 h1 {
-    color: white;
+    color: rgb(12, 12, 12);
 }
 
 #choice0, #choice1, #choice2, #choice3 {
